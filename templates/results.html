@@ -3,7 +3,8 @@
 {% block content %}
 {% if page %}
 {#    TODO: add page title and more... #}
-
+  <h2>Title</h2>
+    <p>{{ page.title }}</p>
   <h2>Summary </h2>
     <p>{{ page.summary }}</p>
     <p><a href="{{ page.url }}"> {{ page.title }}</a> </p>
